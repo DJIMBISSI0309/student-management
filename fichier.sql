@@ -23,7 +23,8 @@ create table student(
  idstud int primary key auto_increment,
  firstname varchar(100),
  lastname varchar(100),
- birth  date;
+ birth  date,
+ image varchar(100)
 )ENGINE=InnoDB;
 create table enrollment(
  idenrol int primary key auto_increment,
